@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinema do Ike</title>
+    <script src="../cinemabasico/site.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../cinemabasico/site.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Abel&family=Raleway:ital,wght@1,100&display=swap');
+    </style>
+    <header class="p-3 text-bg-dark">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="../index.html" class="nav-link px-4 text-white"
+                >Início</a
+              >
+            </li>
+            <li>
+              <a
+                href="../cinemabasico/catalogo.html"
+                class="nav-link px-4 text-secondary"
+                >Catalogo</a
+              >
+            </li>
+            <li>
+              <a
+                href="../ingressos/ingressos.html"
+                class="nav-link px-4 text-white"
+                >Comprar ingressos</a
+              >
+            </li>
+            <li>
+              <a href="#" class="nav-link px-4 text-white">About</a>
+            </li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input
+              type="search"
+              class="form-control form-control-black text-bg-white"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="barbie">
+      <img
+        src="https://quakercinema.com/wp-content/uploads/2023/06/0-quaker-cinema-movie-poster-nun-2.jpg"
+        width="100%"
+      />
+
+      <button
+        type="button"
+        class="play"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="40"
+          height="34"
+          fill="currentColor"
+          class="bi bi-play-fill"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div class="mcbb container-fluid" style="background: black">
+      <!--<div class="row container123 container-fluid">-->
+      <div class="col-xl-3 col-lg-4 col-md-5 col-sm-12">
+        <img
+          src="https://quakercinema.com/wp-content/uploads/2023/06/0-quaker-cinema-movie-poster-nun-2.jpg"
+          class="cinemaima"
+          alt="..."
+          style="border: 5px solid black"
+        />
+      </div>
+      <div>
+        <p
+          class="col-xl-9 col-lg-8"
+          style="margin-left: 1.75%; opacity: 100%; color: rgb(92, 11, 11)"
+        >
+          A Freira 2 é o segundo capítulo da história de A Freira (2018), que
+          faz parte do universo da franquia Invocação do Mal. No primeiro filme,
+          após uma freira cometer suicídio em um convento na Romênia, o Vaticano
+          envia o atormentado Padre Burke (Demián Bichir) e uma noviça, Irmã
+          Irene (Taissa Farmiga), para investigar o ocorrido. Arriscando suas
+          vidas, a fé e até suas almas, os dois descobrem um segredo profano no
+          local, confrontando uma força do mal que assume a forma de uma freira
+          demoníaca e transforma o convento em um campo de batalha espiritual.
+          Agora, na continuação, anos após os acontecimentos do primeiro filme,
+          um padre é assassinado e parece que o mal está se espalhando por toda
+          a região. Novamente acompanhamos a Irmã Irene quando, após pensar ter
+          escapado por pouco de Valak, a entidade demoníaca, ela é forçada a
+          enfrentar o poderoso e macabro inimigo mais uma vez.
+        </p>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div
+            style="
+              width: 600px;
+              height: 330px;
+              background-color: rgb(29, 27, 27);
+              padding: 10px;
+              border: 2px solid rgb(95, 16, 16);
+            "
+            class="modal-body"
+          >
+            <button
+              id="pausar"
+              type="button"
+              class="closing"
+              onclick="stop()"
+              data-bs-dismiss="modal"
+            >
+              X
+            </button>
+            <iframe
+              id="videoId"
+              width="100%"
+              height="90%"
+              src="https://www.youtube.com/embed/QF-oyCwaArU?enablejsapi=1&autoplay=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

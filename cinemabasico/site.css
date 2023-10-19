@@ -1,0 +1,127 @@
+.carousel-item {
+  height: 80vh;
+}
+.carousel-item img {
+  object-fit: fill;
+  height: 100%;
+}
+.precos {
+  display: flex;
+  justify-content: center;
+  margin-top: 23px;
+}
+.containerimg img {
+  width: 100%;
+  height: 55vh;
+  object-fit: fill;
+}
+.rating {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  border-radius: 10px;
+  font-size: x-large;
+  padding: 10px 15px;
+  text-align: center;
+}
+.rating-12 {
+  background-color: #edcb0c;
+}
+.rating-14 {
+  background-color: #f6962d;
+}
+.rating-l {
+  background-color: #00bb22;
+}
+.rating-16 {
+  background-color: #dd021c;
+}
+.mcatalog {
+  display: flex;
+  gap: 12px;
+}
+.mtime {
+  font-family: 'Abel', sans-serif;
+  font-size: x-large;
+  border: solid black;
+  padding: 10px 15px;
+  text-align: center;
+}
+.mtheme {
+  font-family: 'Abel', sans-serif;
+  font-size: x-large;
+  border: solid black;
+  padding: 10px 15px;
+  text-align: center;
+}
+.barbie {
+  position: relative;
+}
+.barbie img {
+  height: 60vh;
+  opacity: 50%;
+}
+.play {
+  position: absolute;
+  left: 47%;
+  right: 50%;
+  top: 40%;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  border-radius: 60%;
+  height: 100px;
+  font-size: large;
+  opacity: 90%;
+}
+.mcb {
+  height: 20vw;
+  width: 50%;
+  border: 4px solid black;
+  margin-top: 5%;
+  border-bottom: 4px solid black;
+}
+.textb {
+  width: 150vw;
+  margin-top: 4.5%;
+  margin-left: 3%;
+  font-size: 1.5vw;
+}
+.mcbb {
+  display: flex;
+  height: 100%;
+}
+.container123 {
+  width: 100%;
+  height: 325px;
+  display: inline-flex;
+}
+
+.container123 img {
+  height: 325px;
+  display: inline-flex;
+  width: 300px;
+  border: 4.5px solid black;
+}
+.md {
+  font-family: sans-serif;
+  color: rgb(230, 227, 227);
+}
+.mcbb {
+  font-family: 'Vollkorn', serif;
+  color: rgb(230, 227, 227);
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 770px) {
+  .mcbb {
+    display: grid;
+  }
+  .cinemaima {
+    width: 100%;
+  }
+}
+.cinemaima {
+  height: 38vh;
+  width: 100%;
+}
